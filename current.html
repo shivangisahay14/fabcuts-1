@@ -7,6 +7,9 @@
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Rowdies&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap" rel="stylesheet">
   <script src="form.js"></script>
 
 </head>
@@ -63,7 +66,7 @@
     }
 
     #features h1{
-      text-align: left;
+      text-align: center;
     text-transform: uppercase;
     padding:35px 30px 30px 35px ;
     }
@@ -78,6 +81,8 @@
       font-family: "Lato", sans-serif;
       padding: 35px 30px 30px 35px;
       text-align: right;
+      background-color: #ef5350;
+
     }
   .media-body h4{
       color: rgb(87, 31, 139);
@@ -265,7 +270,7 @@
 </style>
 <body>
   
-  <nav class="navbar navbar-expand-lg navbar-light bg-light-pink" style="background-color:#e4d6d9;">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light-pink" style="background-color:#ef5350; font-family: 'Rowdies', cursive;">
     <a class="navbar-brand" href="#">
         <img src="logo.jpg" width="45" height="45" alt=""> FABCUTS
     </a>
@@ -284,11 +289,11 @@
   
 
           
-  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" >
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="https://images.unsplash.com/photo-1572872202671-dc8bd60080ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"class="d-block w-100" alt="...">
-          <div class="carousel-caption">
+          <div class="carousel-caption" style="font-family: 'Dancing Script', cursive; text-shadow: -1px 3px 1px black;">
             <h1>FabCuts</h1>
             <p>No Need to wait in the queue anymore!<br>Just book your favourite salon's knowing the correct waiting time. </p>
           </div>
@@ -296,10 +301,11 @@
       </div>
   </div>
 
-  <section class="feature_area purple_feature" id="features">
+  <section class="feature_area purple_feature" id="features" style="background-color:#ef5350; font-family: 'Dancing Script', cursive;">
     <div class="container">
         <div class="main_title purple_title">
           <h1>Features Of Fabcuts</h1>
+
   <div class="col-md-4 col-sm-6 col-xs-12">
     <div class="right_side_feature">
         <div class="media">
@@ -359,10 +365,10 @@
 </section>
     
     
-  <section class="download_area purple_dd" id="download">
+  <section class="download_area purple_dd" id="download" style="background-color:#ffcdd2; font-family: 'Oleo Script', cursive;">
     <div class="container">
-        <div class="download_inner">
-            <h2 id="download">Get the app for android </h2>
+        <div class="download_inner" style="font-family: 'Oleo Script', cursive;">
+            <h2 id="download" style="font-family: 'Oleo Script', cursive;">Get the app for android </h2>
             <h3>Download Fabcuts App Now</h3>
             <p>Manage all your clients from one app. Give them discouts,royalty programs and manage all appointments.
             </p>
@@ -374,15 +380,16 @@
     </div>
 </section>
 
-<div class="container">
+<div class="container" style="background-color:#ffcdd2; text-align: center;">
     <!-- Form Started -->
-    <div class="container form-top" id="feedback">
+    <div class="container form-top" id="feedback" style= "text-align: center;">
         <div class="row">
             <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
                 <div class="panel panel-danger">
                     <div class="panel-body">
                         <form id="reused_form">
                             <div class="form-group">
+                              <h3>Feedback</h3>
                                 <label><i class="fa fa-user" aria-hidden="true"></i> Name</label>
                                 <input type="text" name="name" class="form-control" placeholder="Enter Name">
                             </div>
